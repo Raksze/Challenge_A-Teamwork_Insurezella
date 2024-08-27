@@ -419,6 +419,7 @@ ul{
         display: block;
     }
 
+    /* Estandarizando fuentes por cuestiones de accesibilidad */
     h3{
         font-size: 14px;
     }
@@ -624,7 +625,7 @@ ul{
 }
 
 @media (max-width: 450px){
-
+/* En dispositivos con anchos de pantalla muy bajos la barra header era la primera en quebrar por el largo de los textos */
 header a{
     font-size: 8px;
 }

@@ -10,7 +10,7 @@
 
     <header>
       <div class="headcontent">
-        <img class="mobile logo" src="images/logo.png" alt="Insurezella logo">
+        <img class="mobile logo" src="images/logo.png" alt="Insurezella logo"> <!-- solo visible en la versión mobile -->
           <div class="hamburger-menu mobile">
             <span></span>
             <span></span>
@@ -24,12 +24,14 @@
           </ul>
         <h3>Want to Connect with us?</h3>
         <div class="headcontent">
-          <a>Mail us: support @insurezella .com</a>
+          <a>Mail us: support @insurezella .com</a> <!-- El email fue separado en partes para permitir que se ajuste a la medida del container de ser necesario -->
           <a>Call us: (877) 227 0774</a>
         </div>
       </div>
     </header>
 
+
+    <!-- Barra de navegación solo visible en la versión de escritorio -->
     <nav class="navbar desktop">
       <img class="logo" src="images/logo.png" alt="Insurezella logo">
       <ul>
@@ -259,8 +261,10 @@
       </div>
     </div>
     
+   <!--  Footer visible solo en la versión desktop
+ -->
     <div class="footercard desktop">
-      <div class="footercontainer fclogo"> <!-- logo -->
+      <div class="footercontainer fclogo">
         <img src="images/logo.png" alt="Insurezella logo">
         <p>"Discover the Peace of Mind Your Deserve with Insurezella "Your Reliable Insurance Umbrella"</p>
         <p>FB TW IG IN</p>
@@ -283,7 +287,7 @@
       </div>
       <div class="footercontainer">
         <h3>Get In Touch</h3>
-        <p href="#">Email: support@insurezella.com</p>
+        <p href="#">Email: support@insurezella.com</p> <!-- El email fue separado en partes para permitir que se ajuste a la medida del container de ser necesario -->
         <p href="#">Tel: +18772270774</p>
         <p>Hours: Mon-Fri 9:00AM - 5:00PM</p>
         <p>300 SE 2nd Street Suite 600 Ft. Lauderdale FL 33301</p>
@@ -292,6 +296,8 @@
 
     <div class="footer desktop"></div>
     
+   <!--  Footer visible solo en versión mobile, con el objetivo de separar la tarjeta en dos secciones con una franja azul de por medio -->
+
     <div class="footercard mobile">
       <div class="footercontainer fclogo"> <!-- logo -->
         <img src="images/logo.png" alt="Insurezella logo">
@@ -322,7 +328,7 @@
         </div>
         <div class="footercontainer">
           <h3>Get In Touch</h3>
-          <p href="#">Email: support @insurezella .com</p>
+          <p href="#">Email: support @insurezella .com</p> <!-- El email fue separado en partes para permitir que se ajuste a la medida del container de ser necesario -->
           <p href="#">Tel: +18772270774</p>
           <p>Hours: Mon-Fri 9:00AM - 5:00PM</p>
           <p>300 SE 2nd Street Suite 600 Ft. Lauderdale FL 33301</p>
@@ -352,8 +358,8 @@
             this.classList.add('active');
             slides.style.transform = `translateX(-${index * 100}%)`;
           });
-     });
-   });
+      });
+      });
     </script>
   </body>
 </html>
