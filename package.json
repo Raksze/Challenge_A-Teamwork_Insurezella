@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "name": "website-insurezella",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raksze/Insurezella.git"
+  },
+  "author": "Raksze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raksze/Insurezella/issues"
+  },
+  "homepage": "https://github.com/Raksze/Insurezella#readme",
+  "description": ""
+}
